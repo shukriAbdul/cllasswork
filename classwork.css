@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    /* border-bottom: 8px solid rgb(19, 19, 44); */
+/*      */
+position: fixed;
+width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color:  rgb(19, 19, 44);
+padding: 12px 40px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    padding: 15px;
+    list-style: none;
+}
+ ul li a{
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+.header h1{
+    color: orange;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: -70px;
+ 
+}
+.fa-solid{
+    font-size: 30px;
+    color:orange;
+    margin-top: 15px;
+}
+.showcase{
+  padding-top: 40px;
+    text-align: center;
+    height: 550px;
+    background-size: cover;
+    background-image: url("cover.jpg");
+}
+.showcase h1{
+   padding-top: 70px;
+    color: white;
+    font-size: 70px;
+}
+.showcase h2{
+    font-size: 70px;
+    color: rgb(62, 64, 94);
+}
+.showcase p{
+    color: white;
+    font-size: 25px;
+    padding-top: 10px 20px;
+    /* text-align: center; */
+    text-align: justify;
+   
+}
+.showcase button{
+    height: 50px;
+    margin-top: 20px;
+    width: 150px;
+    border: none;
+    background-color:rgb(62, 64, 94);
+   border-radius: 50px;
+   /* border-top-right-radius: 20px; */
+   /* border-bottom-right-radius: 20px; */
+    font-size: 18px;
+    color: white
+}
+.header h1{
+    margin-top: 12px;
+}
+span{
+    color: white;
+}
+.company{
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+
+}
+.part-one h1{
+    font-size: 35px;
+    color: rgb(156, 156, 36); 
+    padding-top: 90px;
+}
+.part-one p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+
+}
+button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(108, 108, 10);
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+img{
+    width: 700px;
+height: 300px;
+padding-top: 20px;
+padding-left: 100px;
+
+}
+.choose-us{
+    background-color: lightblue;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.choose-us p{
+    padding: 10px 20%;
+    /* font-weight: bold; */
+}
+.choose-us span{
+    color: orange;
+    font-size: 50px;
+    /* margin-bottom: 50px; */
+}
+.box-barent{
+    display: flex;
+   margin: 20px 200px;
+   /* flex-wrap: wrap; */
+  
+}
+.box-one i{
+    color: white;
+    border-radius: 50%;
+    border: 8px orange solid;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+/* .grid-container{ */
+    /* margin: 30px; */
+    /* display: grid; */
+    /* justify-content: center; */
+    /* grid-template-columns: 300px 300px 300px; */
+    /* gap: 20px; */
+/*  */
+/* } */
+/* .grid-items{ */
+    /* background-color: brown; */
+    /* color: white; */
+    /* text-align: center; */
+    /* width: 300px; */
+    /* height: 100px; */
+/* } */
+ h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 40px 10px;
+}
+ h1 span{
+    color: orange;
+}
+ .services-parent{
+    margin: 12px 100px;
+   
+ justify-content: center;
+ display: grid;
+ grid-template-columns: 400px 400px 400px;
+ /* margin: 20px 100px; */
+ gap: 15px;
+ margin-right: 250px;
+}
+.service1 img{
+    width: 100%;
+}
+.service1 h2{
+    margin: 12px 100px;
+}
+.service1 p{
+    margin: 12px 100px;
+}
+.service1 button{
+    margin: 2px 100px;
+  
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+
+}
+.service1 button:hover{
+    background-color: cadetblue;
+}
+.gellary h1{
+ text-align: center;
+ font-size: 50px;
+ margin: 60px 10px;
+}
+/* .gellary{ */
+    /* margin: 70px 2px; */
+/* } */
+.gallery-parent{
+    margin-top: 30px;
+    justify-content: center;
+   display: grid;
+   grid-template-columns: 400px 400px 400px;
+   gap: 20px;
+}
+.gallery-parent img{
+    width: 100%;
+   padding-right: 60px;
+}
+.reviews{
+    margin-top: 30px;
+justify-content: center;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+/* grid-column: 30px; */
+gap: 20px;
+}
+.texts img{
+    width: 150px;
+    height: 100px;
+   
+    /* border: none; */
+    /* border-radius: 30px; */
+    /* border-left:80px ; */
+/*      */
+   
+}
+.texts{
+    padding-top: 30px;
+    box-shadow: 2px 10px 12px gray;
+}
